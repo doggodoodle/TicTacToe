@@ -1,0 +1,7 @@
+
+DTicTacBoard{SIZE=3, totalMoves=2, lastX=1, lastY=2, lastPlayer='X'}
+DTicTacBoard{SIZE=3, totalMoves=5, lastX=2, lastY=2, lastPlayer='O'}
+DTicTacBoard{SIZE=3, totalMoves=5, lastX=2, lastY=0, lastPlayer='X'}
+DTicTacBoard{SIZE=3, totalMoves=5, lastX=2, lastY=0, lastPlayer='O'}
+DTicTacBoard{SIZE=3, totalMoves=5, lastX=0, lastY=2, lastPlayer='O'}
+DTicTacBoard{SIZE=3, totalMoves=5, lastX=2, lastY=2, lastPlayer='X'}

@@ -1,10 +1,9 @@
-package ritvik.board;
+package test.java.board;
 
+import main.java.board.TicTacBoard;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by ritvikmathur on 4/1/17.

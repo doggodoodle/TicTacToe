@@ -1,4 +1,4 @@
-package ritvik.board;
+package main.java.board;
 
 /**
  * Created by ritvikmathur on 4/1/17.

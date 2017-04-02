@@ -1,8 +1,8 @@
-package ritvik;
+package main.java;
 
-import ritvik.evaluator.Evaluator;
-import ritvik.evaluator.TicTacToeEvaluator;
-import ritvik.board.TicTacBoard;
+import main.java.evaluator.Evaluator;
+import main.java.evaluator.TicTacToeEvaluator;
+import main.java.board.TicTacBoard;
 
 import java.util.Scanner;
 

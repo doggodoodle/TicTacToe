@@ -1,6 +1,6 @@
-package ritvik.evaluator;
+package main.java.evaluator;
 
-import ritvik.board.TicTacBoard;
+import main.java.board.TicTacBoard;
 
 /**
  * Created by ritvikmathur on 4/1/17.
@@ -25,7 +25,7 @@ public class TicTacToeEvaluator implements Evaluator {
             return null;
     }
 
-    protected boolean evaluateBackwardDiagonal(int x, int y) {
+    private boolean evaluateBackwardDiagonal(int x, int y) {
         if(x==y){
             String p = board.getBoard()[0][0];
             for(int i = 1; i < size; i++){
@@ -38,8 +38,8 @@ public class TicTacToeEvaluator implements Evaluator {
             return false;
     }
 
-    protected boolean evaluateForwardDiagonal(int x, int y) {
-        if(x+y == size -1){
+    private boolean evaluateForwardDiagonal(int x, int y) {
+        if(x+y == size-1){
             String p = board.getBoard()[0][size-1];
             for(int i = 1, j = size-2; i<size; i++, j--){
                 if(board.getBoard()[i][j]==null || !board.getBoard()[i][j].equals(p))
@@ -51,7 +51,7 @@ public class TicTacToeEvaluator implements Evaluator {
             return false;
     }
 
-    protected boolean evaluateCol(int y) {
+    private boolean evaluateCol(int y) {
         String p = board.getBoard()[0][y];
         for(int i = 1; i < size; i++){
             if(board.getBoard()[i][y]==null || !board.getBoard()[i][y].equals(p))
@@ -60,7 +60,7 @@ public class TicTacToeEvaluator implements Evaluator {
         return true;
     }
 
-    protected boolean evaluateRow(int x) {
+    private boolean evaluateRow(int x) {
         String p = board.getBoard()[x][0];
         for(int i = 1; i < size; i++){
             if(board.getBoard()[x][i]==null || !board.getBoard()[x][i].equals(p))

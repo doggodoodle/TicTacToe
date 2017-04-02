@@ -1,6 +1,6 @@
-package ritvik.evaluator;
+package main.java.evaluator;
 
-import ritvik.board.TicTacBoard;
+import main.java.board.TicTacBoard;
 
 /**
  * Created by ritvikmathur on 4/1/17.

@@ -24,7 +24,9 @@ public class TicTacToeEvaluatorTest {
     @Test
     public void evaluateResult() throws Exception {
         board.addMove("O",0,0);
+        board.addMove("X",1,0);
         board.addMove("O",1,1);
+        board.addMove("X",1,2);
         board.addMove("O",2,2);
         System.out.println(board.toString());
         Assert.assertEquals("O should win","O",evaluator.evaluateResult(board));

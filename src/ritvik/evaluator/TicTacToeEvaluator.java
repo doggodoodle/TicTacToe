@@ -7,10 +7,10 @@ import ritvik.board.TicTacBoard;
  */
 public class TicTacToeEvaluator implements Evaluator {
 
-    TicTacBoard board;
-    int x;
-    int y;
-    int size;
+    private TicTacBoard board;
+    private int x;
+    private int y;
+    private int size;
 
     public String evaluateResult(TicTacBoard board) {
 
@@ -18,10 +18,8 @@ public class TicTacToeEvaluator implements Evaluator {
         this.x = board.getLastX();
         this.y = board.getLastY();
         this.size = board.getSIZE();
-        //this.p = board.getLastPlayer();
 
-
-        if((x>=0 && y>=0) && (evaluateRow(x) || evaluateCol(y) || evaluateForwardDiagonal(x, y) || evaluateBackwardDiagonal(x,y)))
+        if( ((board.getTotalMoves()>=size*2-1) && x>=0 && y>=0) && (evaluateRow(x) || evaluateCol(y) || evaluateForwardDiagonal(x, y) || evaluateBackwardDiagonal(x,y)))
             return board.getLastPlayer();
         else
             return null;

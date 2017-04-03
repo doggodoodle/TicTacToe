@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.board.TicTacBoardTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-04-02T22:40:25" hostname="Ritviks-MacBook-Pro.local" time="0.005">
+<testsuite name="test.java.board.TicTacBoardTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-04-03T01:00:55" hostname="Ritviks-MacBook-Pro.local" time="0.006">
   <properties/>
   <testcase name="addMove" classname="test.java.board.TicTacBoardTest" time="0.001"/>
   <testcase name="getTotalMoves" classname="test.java.board.TicTacBoardTest" time="0.0"/>
   <testcase name="getSIZE" classname="test.java.board.TicTacBoardTest" time="0.0"/>
   <testcase name="reset" classname="test.java.board.TicTacBoardTest" time="0.0"/>
   <testcase name="getLastPlayer" classname="test.java.board.TicTacBoardTest" time="0.0"/>
-  <testcase name="getBoard" classname="test.java.board.TicTacBoardTest" time="0.001"/>
+  <testcase name="getBoard" classname="test.java.board.TicTacBoardTest" time="0.002"/>
   <testcase name="getLastX" classname="test.java.board.TicTacBoardTest" time="0.0"/>
-  <testcase name="getLastY" classname="test.java.board.TicTacBoardTest" time="0.0"/>
+  <testcase name="getLastY" classname="test.java.board.TicTacBoardTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

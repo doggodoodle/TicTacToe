@@ -1,4 +1,4 @@
-package main.java.board;
+package board;
 
 /**
  * Created by ritvikmathur on 4/1/17.

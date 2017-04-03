@@ -1,6 +1,6 @@
-package main.java.evaluator;
+package evaluator;
 
-import main.java.board.TicTacBoard;
+import board.TicTacBoard;
 
 /**
  * Created by ritvikmathur on 4/1/17.

@@ -1,6 +1,5 @@
-package test.java.board;
+package board;
 
-import main.java.board.TicTacBoard;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

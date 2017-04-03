@@ -1,8 +1,10 @@
-package test.java.evaluator;
+package evaluator;
 
-import main.java.evaluator.TicTacToeEvaluator;
-import org.junit.*;
-import main.java.board.TicTacBoard;
+import board.TicTacBoard;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Created by ritvikmathur on 4/1/17.

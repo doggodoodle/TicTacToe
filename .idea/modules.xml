@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/TicTacToe.iml" filepath="$PROJECT_DIR$/TicTacToe.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TicTacToe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TicTacToe_main.iml" group="TicTacToe" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TicTacToe_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TicTacToe_test.iml" group="TicTacToe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/code-TicTacToe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/code-TicTacToe_main.iml" group="TicTacToe" />
     </modules>
   </component>
 </project>

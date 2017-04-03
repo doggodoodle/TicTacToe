@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\TicTacToe-1.0.jar
 
 @rem Execute TicTacToe
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TIC_TAC_TOE_OPTS%  -classpath "%CLASSPATH%" main.java.TicTacToe %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TIC_TAC_TOE_OPTS%  -classpath "%CLASSPATH%" TicTacToe %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

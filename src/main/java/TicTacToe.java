@@ -1,8 +1,6 @@
-package main.java;
-
-import main.java.evaluator.Evaluator;
-import main.java.evaluator.TicTacToeEvaluator;
-import main.java.board.TicTacBoard;
+import evaluator.Evaluator;
+import evaluator.TicTacToeEvaluator;
+import board.TicTacBoard;
 
 import java.util.Scanner;
 
